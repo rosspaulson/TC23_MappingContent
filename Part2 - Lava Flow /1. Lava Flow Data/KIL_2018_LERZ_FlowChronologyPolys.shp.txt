@@ -1,0 +1,459 @@
+Metadata:
+  Identification_Information:
+    Citation:
+      Citation_Information:
+        Originator: Zoeller, Michael H.
+        Originator: Perroy, Ryan L.
+        Originator: Wessels, Rick L.
+        Originator: Fisher, Gary B.
+        Originator: Robinson, Joel E.
+        Originator: Bard, Joseph A.
+        Originator: Peters, Jeff
+        Originator: Mosbrucker, Adam R.
+        Originator: Parcheta, Carolyn E.
+        Publication_Date: 2020
+        Title: Kilauea 2018 lower East Rift Zone eruption - lava flow chronology polygons
+        Geospatial_Data_Presentation_Form: vector digital data
+        Larger_Work_Citation:
+          Citation_Information:
+            Originator: Zoeller, Michael H.
+            Originator: Perroy, Ryan L.
+            Originator: Wessels, Rick L.
+            Originator: Fisher, Gary B.
+            Originator: Robinson, Joel E.
+            Originator: Bard, Joseph A.
+            Originator: Peters, Jeff
+            Originator: Mosbrucker, Adam R.
+            Originator: Parcheta, Carolyn E.
+            Publication_Date: 2020
+            Title: Geospatial database of the 2018 lower East Rift Zone eruption of Kilauea Volcano, Hawai'i
+            Publication_Information:
+              Publication_Place: Reston, Virginia
+              Publisher: U.S. Geological Survey
+            Other_Citation_Details: Suggested citation: Zoeller, M.H., Perroy, R.L., Wessels, R.L., Fisher, G.B., Robinson, J.E., Bard, J.A., Peters, J., Mosbrucker, A.R., and Parcheta, C.E., 2020, Geospatial database of the 2018 lower East Rift Zone eruption of Kilauea Volcano, Hawai'i: U.S. Geological Survey data release, https://doi.org/10.5066/P9S7UQKQ.
+            Online_Linkage: https://doi.org/10.5066/P9S7UQKQ
+    Description:
+      Abstract: The 2018 lower East Rift Zone eruption of Kilauea Volcano began in the late afternoon of 3 May, with fissure 1 opening and erupting lava onto Mohala Street in the Leilani Estates subdivision, part of the lower Puna District of the Island of Hawai'i. For the first week of the eruption, relatively viscous lava flowed only within a kilometer (0.6 miles) of the fissures within Leilani Estates, before activity shifted downrift (east-northeast) and out of the subdivision during mid-May. Around 18 May, activity along the lower East Rift Zone intensified, and fluid lava erupting at higher effusion rates from the downrift fissures reached the ocean within two days. Near the end of May, this more vigorous activity shifted back uprift into Leilani Estates, where fissure 8 reactivated with lava fountains feeding several 'a'a flows. The southernmost flow lobe developed into a well-defined lava channel and reached the ocean at Kapoho Bay - 11 kilometers (7 miles) away - on 3 June. Fissure 8 continued supplying this lava channel for more than two months, constructing an approximately 3.5-square-kilometer (1.4-square-mile) lava delta along the coastline. Over 4 and 5 August, activity at fissure 8 waned and flow in the lava channel came to a halt, only to be followed by weak activity within the vent in late August and early September. By then, the eruption had covered 35.5 square kilometers (13.7 square miles) of the lower Puna District with lava. In this report, the authors have sought to chronicle this sequence of events using geospatial data in the form of an Esri file geodatabase, Esri shapefiles, and Google Earth KMZs.
+      Purpose: This geospatial database provides a digital representation of map data relating to the 2018 lower East Rift Zone eruption of Kilauea Volcano, Hawai'i; specifically, these geospatial data are versions - updated for accuracy - of those used to construct semi-daily lava-flow maps during the eruption, and they have been incorporated into maps for the U.S. Geological Survey Professional Paper chapter that is preliminarily titled "Chronological narrative for the 2018 eruption of Kilauea" by Parcheta, C.E. and others (in preparation). Feature data are also included for sample sites in the U.S. Geological Survey data release "Whole-rock and glass chemistry of lava samples collected during the 2018 lower East Rift Zone eruption of Kilauea" by Lee, R.L. and others (2019, accessed at https://doi.org/10.5066/P9LVY7GV). This report supersedes the "Preliminary map of the 2018 lower East Rift Zone eruption of Kilauea Volcano, Island of Hawai'i" by the Hawaiian Volcano Observatory staff (2018, accessed at https://doi.org/10.5066/P994OGY8). The content and character of the digital publication, as well as methods for obtaining the digital files, are described here. See Entity_and_Attribute_Information for positional accuracy of features and attribute data.
+      Supplemental_Information: These feature data consist of polygons representing chronologic lava flow footprints. Only subaerial lava flows have been mapped; submarine lava flows are not depicted. The database was compiled in ArcMap, a commercial geographic information system (GIS) by Environmental Systems Research Institute (Esri) of Redlands, California. Any use of trade, product, or firm names is for descriptive purposes only and does not imply endorsement by the U.S. Government.
+    Time_Period_of_Content:
+      Time_Period_Information:
+        Single_Date/Time:
+          Calendar_Date: 2018
+      Currentness_Reference: ground condition
+    Status:
+      Progress: Complete
+      Maintenance_and_Update_Frequency: None planned
+    Spatial_Domain:
+      Bounding_Coordinates:
+        West_Bounding_Coordinate: -154.927282
+        East_Bounding_Coordinate: -154.806382
+        North_Bounding_Coordinate: 19.513735
+        South_Bounding_Coordinate: 19.439980
+    Keywords:
+      Theme:
+        Theme_Keyword_Thesaurus: None
+        Theme_Keyword: Hawaii
+        Theme_Keyword: Hawai'i
+        Theme_Keyword: Kilauea
+        Theme_Keyword: East Rift Zone
+        Theme_Keyword: lower East Rift Zone
+        Theme_Keyword: geology
+        Theme_Keyword: map
+        Theme_Keyword: volcano
+        Theme_Keyword: shield volcano
+        Theme_Keyword: lava
+        Theme_Keyword: lava flow
+        Theme_Keyword: basalt
+        Theme_Keyword: tholeiitic basalt
+        Theme_Keyword: basaltic andesite
+        Theme_Keyword: andesite
+        Theme_Keyword: FlowChronologyPolys
+        Theme_Keyword: flow chronology polygon
+        Theme_Keyword: lava flow chronology polygon
+        Theme_Keyword: flow chronology footprint
+        Theme_Keyword: lava flow chronology footprint
+        Theme_Keyword: flow chronology footprint polygon
+        Theme_Keyword: lava flow chronology footprint polygon
+      Place:
+        Place_Keyword_Thesaurus: None
+        Place_Keyword: United States of America
+        Place_Keyword: State of Hawaii
+        Place_Keyword: Island of Hawai'i
+        Place_Keyword: Puna District
+        Place_Keyword: Pahoa North quadrangle
+        Place_Keyword: Pahoa South quadrangle
+        Place_Keyword: Kapoho OE N quadrangle
+        Place_Keyword: Kapoho quadrangle
+        Place_Keyword: Leilani Estates
+        Place_Keyword: Vacationland Hawaii
+        Place_Keyword: Green Lake
+        Place_Keyword: Kapoho Bay
+        Place_Keyword: Waiopae
+      Temporal:
+        Temporal_Keyword_Thesaurus: None
+        Temporal_Keyword: Quaternary
+        Temporal_Keyword: Holocene
+    Access_Constraints: None
+    Use_Constraints: This geospatial database should not be used in any manner that violates the spatial resolution of approximately 2 millimeters (0.1 inches) at 1:5,000-scale, or 10 meters (33 feet) on the ground. Although digital geospatial data are not constrained by scale like paper maps, the inherent uncertainty of the source data is transferred to this database. The dataset was edited at a scale of 1:5,000; therefore, no data of higher resolution have been included. Displaying or analyzing the data at larger scales will not provide greater detail, and it may reveal irregularities that were not visible at the intended scale of 1:5,000. If these data are used alongside any higher-resolution digital data, the spatial resolution of the combined dataset will only be equal to that of the lowest-resolution data. Acknowledgment of the U.S. Geological Survey is appreciated in any products derived from this database.
+    Point_of_Contact:
+      Contact_Information:
+        Contact_Person_Primary:
+          Contact_Person: Michael Zoeller
+          Contact_Organization: U.S. Geological Survey
+        Contact_Position: Geologist
+        Contact_Address:
+          Address_Type: mailing and physical address
+          Address: Hawaiian Volcano Observatory
+          Address: 1266 Kamehameha Avenue
+          Address: Suite A8
+          City: Hilo
+          State_or_Province: Hawaii
+          Postal_Code: 96720
+          Country: United States of America
+        Contact_Voice_Telephone: 808-967-8848
+        Contact_Electronic_Mail_Address: mzoeller@usgs.gov
+        Contact_Instructions: Preferred contact by e-mail. This mailing and physical address is temporary.
+    Native_Data_Set_Environment: Version 6.2 (Build 9200); Esri ArcGIS 10.6.1.9270
+  Data_Quality_Information:
+    Attribute_Accuracy:
+      Attribute_Accuracy_Report: See Entity_and_Attribute_Information.
+      Quantitative_Attribute_Accuracy_Assessment:
+        Attribute_Accuracy_Value: See Attribute_Accuracy_Explanation.
+        Attribute_Accuracy_Explanation: Attribute accuracy is described, where applicable, in the Entity_and_Attribute_Information section.
+    Logical_Consistency_Report: The polyline and polygon feature classes in the geodatabase were checked for various topologic errors, which were rectified if necessary.
+    Completeness_Report: This report is intended to geospatially describe the volcanic products and features of the 2018 Kilauea lower East Rift Zone eruption. No further mapping is expected at this time.
+    Positional_Accuracy:
+      Horizontal_Positional_Accuracy:
+        Horizontal_Positional_Accuracy_Report: Although the horizontal positional accuracy of the source datasets is variable, this dataset has in general been edited at a scale of 1:5:000, therefore most horizontal positions should be accurate to within 2 millimeters (0.1 inches) at this scale, or 10 meters (33 feet) on the ground.
+      Vertical_Positional_Accuracy:
+        Vertical_Positional_Accuracy_Report: No vertical positional accuracy information to report.
+    Lineage:
+      Source_Information:
+        Source_Citation:
+          Citation_Information:
+            Originator: Lee, R. Lopaka
+            Originator: Gansecki, Cheryl
+            Originator: Lundblad, Steven
+            Originator: Mills, Peter
+            Originator: Adams, David T.
+            Originator: Conrey, Richard
+            Originator: Wagoner, Laureen
+            Publication_Date: 2019
+            Title: Whole-rock and glass chemistry of lava samples collected during the 2018 lower East Rift Zone eruption of Kilauea
+            Publication_Information:
+              Publication_Place: Reston, Virginia
+              Publisher: U.S. Geological Survey
+            Online_Linkage: https://doi.org/10.5066/P9LVY7GV
+        Type_of_Source_Media: online
+        Source_Time_Period_of_Content:
+          Time_Period_Information:
+            Single_Date/Time:
+              Calendar_Date: 2018
+          Source_Currentness_Reference: ground condition
+        Source_Citation_Abbreviation: Lee and others (2019)
+        Source_Contribution: Geographic coordinates provided the locations for sample site point features.
+      Process_Step:
+        Process_Description: Lava flow expansions were digitized (syn-eruption) as polygons from oblique helicopter photography (optical and thermal), small unoccupied aerial system (sUAS) photography (optical and thermal), and various satellite imagery sources.
+        Process_Date: 2018
+        Source_Produced_Citation_Abbreviation: Zoeller and others (2020)
+        Process_Contact:
+          Contact_Information:
+            Contact_Person_Primary:
+              Contact_Person: Michael Zoeller
+              Contact_Organization: U.S. Geological Survey
+            Contact_Position: Geologist
+            Contact_Address:
+              Address_Type: mailing and physical address
+              Address: Hawaiian Volcano Observatory
+              Address: 1266 Kamehameha Avenue
+              Address: Suite A8
+              City: Hilo
+              State_or_Province: Hawaii
+              Postal_Code: 96720
+              Country: United States of America
+            Contact_Voice_Telephone: 808-967-8848
+            Contact_Electronic_Mail_Address: mzoeller@usgs.gov
+            Contact_Instructions: Preferred contact by e-mail. This mailing and physical address is temporary.
+      Process_Step:
+        Process_Description: Flow expansion polygons were cross-correlated with additional helicopter photography to enable attribution with more accurate emplacement dates/times when tracing flow chronology lines along the polygon boundaries. Erroneous flow chronology lines along the edges of the flow field were re-digitized from DigitalGlobe satellite imagery. New flow chronology polygons were constructed from the flow chronology lines and attributed according to the more accurate emplacement dates/times. Individual fissure flows were separated by analyzing helicopter photography and DigitalGlobe imagery.
+        Process_Date: 2019
+        Source_Produced_Citation_Abbreviation: Zoeller and others (2020)
+        Process_Contact:
+          Contact_Information:
+            Contact_Person_Primary:
+              Contact_Person: Michael Zoeller
+              Contact_Organization: U.S. Geological Survey
+            Contact_Position: Geologist
+            Contact_Address:
+              Address_Type: mailing and physical address
+              Address: Hawaiian Volcano Observatory
+              Address: 1266 Kamehameha Avenue
+              Address: Suite A8
+              City: Hilo
+              State_or_Province: Hawaii
+              Postal_Code: 96720
+              Country: United States of America
+            Contact_Voice_Telephone: 808-967-8848
+            Contact_Electronic_Mail_Address: mzoeller@usgs.gov
+            Contact_Instructions: Preferred contact by e-mail. This mailing and physical address is temporary.
+      Process_Step:
+        Process_Description: Fissure lines were digitized (syn-eruption) from various satellite imagery sources.
+        Process_Date: 2018
+        Source_Produced_Citation_Abbreviation: Zoeller and others (2020)
+        Process_Contact:
+          Contact_Information:
+            Contact_Person_Primary:
+              Contact_Person: Michael Zoeller
+              Contact_Organization: U.S. Geological Survey
+            Contact_Position: Geologist
+            Contact_Address:
+              Address_Type: mailing and physical address
+              Address: Hawaiian Volcano Observatory
+              Address: 1266 Kamehameha Avenue
+              Address: Suite A8
+              City: Hilo
+              State_or_Province: Hawaii
+              Postal_Code: 96720
+              Country: United States of America
+            Contact_Voice_Telephone: 808-967-8848
+            Contact_Electronic_Mail_Address: mzoeller@usgs.gov
+            Contact_Instructions: Preferred contact by e-mail. This mailing and physical address is temporary.
+      Process_Step:
+        Process_Description: Fissure lines were realigned to better-georeferenced helicopter photography.
+        Process_Date: 2019
+        Source_Produced_Citation_Abbreviation: Zoeller and others (2020)
+        Process_Contact:
+          Contact_Information:
+            Contact_Person_Primary:
+              Contact_Person: Michael Zoeller
+              Contact_Organization: U.S. Geological Survey
+            Contact_Position: Geologist
+            Contact_Address:
+              Address_Type: mailing and physical address
+              Address: Hawaiian Volcano Observatory
+              Address: 1266 Kamehameha Avenue
+              Address: Suite A8
+              City: Hilo
+              State_or_Province: Hawaii
+              Postal_Code: 96720
+              Country: United States of America
+            Contact_Voice_Telephone: 808-967-8848
+            Contact_Electronic_Mail_Address: mzoeller@usgs.gov
+            Contact_Instructions: Preferred contact by e-mail. This mailing and physical address is temporary.
+      Process_Step:
+        Process_Description: Isopach lines were manually drawn to fit unpublished fissure 8 tephra thickness data from Samantha Isgett (University of Hawai'i at Manoa) and Carolyn Parcheta (U.S. Geological Survey, Hawaiian Volcano Observatory).
+        Process_Date: 2019
+        Source_Produced_Citation_Abbreviation: Zoeller and others (2020)
+        Process_Contact:
+          Contact_Information:
+            Contact_Person_Primary:
+              Contact_Person: Michael Zoeller
+              Contact_Organization: U.S. Geological Survey
+            Contact_Position: Geologist
+            Contact_Address:
+              Address_Type: mailing and physical address
+              Address: Hawaiian Volcano Observatory
+              Address: 1266 Kamehameha Avenue
+              Address: Suite A8
+              City: Hilo
+              State_or_Province: Hawaii
+              Postal_Code: 96720
+              Country: United States of America
+            Contact_Voice_Telephone: 808-967-8848
+            Contact_Electronic_Mail_Address: mzoeller@usgs.gov
+            Contact_Instructions: Preferred contact by e-mail. This mailing and physical address is temporary.
+      Process_Step:
+        Process_Description: Field geologists collected lava and tephra samples, then marked their locations using handheld Global Positioning System (GPS) units. Petrologists tabulated these data, and the sample locations were loaded into ArcMap as point features.
+        Source_Used_Citation_Abbreviation: Lee and others (2019)
+        Process_Date: 2018
+        Source_Produced_Citation_Abbreviation: Zoeller and others (2020)
+        Process_Contact:
+          Contact_Information:
+            Contact_Person_Primary:
+              Contact_Person: Michael Zoeller
+              Contact_Organization: U.S. Geological Survey
+            Contact_Position: Geologist
+            Contact_Address:
+              Address_Type: mailing and physical address
+              Address: Hawaiian Volcano Observatory
+              Address: 1266 Kamehameha Avenue
+              Address: Suite A8
+              City: Hilo
+              State_or_Province: Hawaii
+              Postal_Code: 96720
+              Country: United States of America
+            Contact_Voice_Telephone: 808-967-8848
+            Contact_Electronic_Mail_Address: mzoeller@usgs.gov
+            Contact_Instructions: Preferred contact by e-mail. This mailing and physical address is temporary.
+      Process_Step:
+        Process_Description: Metadata written for all Esri geodatabase feature classes and Esri shapefiles.
+        Process_Date: 2019
+        Source_Produced_Citation_Abbreviation: Zoeller and others (2020)
+        Process_Contact:
+          Contact_Information:
+            Contact_Person_Primary:
+              Contact_Person: Michael Zoeller
+              Contact_Organization: U.S. Geological Survey
+            Contact_Position: Geologist
+            Contact_Address:
+              Address_Type: mailing and physical address
+              Address: Hawaiian Volcano Observatory
+              Address: 1266 Kamehameha Avenue
+              Address: Suite A8
+              City: Hilo
+              State_or_Province: Hawaii
+              Postal_Code: 96720
+              Country: United States of America
+            Contact_Voice_Telephone: 808-967-8848
+            Contact_Electronic_Mail_Address: mzoeller@usgs.gov
+            Contact_Instructions: Preferred contact by e-mail. This mailing and physical address is temporary.
+  Spatial_Data_Organization_Information:
+    Direct_Spatial_Reference_Method: Vector
+    Point_and_Vector_Object_Information:
+      SDTS_Terms_Description:
+        SDTS_Point_and_Vector_Object_Type: GT-polygon composed of chains
+        Point_and_Vector_Object_Count: 932
+  Spatial_Reference_Information:
+    Horizontal_Coordinate_System_Definition:
+      Planar:
+        Map_Projection:
+          Map_Projection_Name: NAD 1983 UTM Zone 5N
+          Transverse_Mercator:
+            Scale_Factor_at_Central_Meridian: 0.9996
+            Longitude_of_Central_Meridian: -153.0
+            Latitude_of_Projection_Origin: 0.0
+            False_Easting: 500000.0
+            False_Northing: 0.0
+        Planar_Coordinate_Information:
+          Planar_Coordinate_Encoding_Method: coordinate pair
+          Coordinate_Representation:
+            Abscissa_Resolution: 0.000000002220024164500956
+            Ordinate_Resolution: 0.000000002220024164500956
+          Planar_Distance_Units: meter
+      Geodetic_Model:
+        Horizontal_Datum_Name: D North American 1983
+        Ellipsoid_Name: GRS 1980
+        Semi-major_Axis: 6378137.0
+        Denominator_of_Flattening_Ratio: 298.257222101
+  Entity_and_Attribute_Information:
+    Detailed_Description:
+      Entity_Type:
+        Entity_Type_Label: KIL_2018_LERZ_FlowChronologyPolys.shp
+        Entity_Type_Definition: Polygons with associated attribute data for chronologic lava flow footprints of the 2018 lower East Rift Zone eruption of Kilauea Volcano, Hawai'i.
+        Entity_Type_Definition_Source: Author.
+      Attribute:
+        Attribute_Label: FID
+        Attribute_Definition: Internal feature number.
+        Attribute_Definition_Source: Esri
+        Attribute_Domain_Values:
+          Unrepresentable_Domain: Sequential unique whole numbers that are automatically generated.
+      Attribute:
+        Attribute_Label: Shape
+        Attribute_Definition: Feature geometry.
+        Attribute_Definition_Source: Esri
+        Attribute_Domain_Values:
+          Unrepresentable_Domain: Coordinates defining the features.
+      Attribute:
+        Attribute_Label: FlowTime1
+        Attribute_Definition: Date and time of lava emplacement (Hawaii Standard Time), formatted as a Text attribute field.
+        Attribute_Definition_Source: Author
+        Attribute_Domain_Values:
+          Unrepresentable_Domain: Dates expressed as YYYY/MM/DD and times expressed on a 24-hour clock.
+      Attribute:
+        Attribute_Label: EruptDay1
+        Attribute_Definition: Sequential calendar day of the eruption, with 3 May being day 01, formatted as a Text attribute field. When a calendar day has multiple data collections, they are sequentially marked as 02A, 02B, and so on.
+        Attribute_Definition_Source: Author
+        Attribute_Domain_Values:
+          Unrepresentable_Domain: Sequential two-digit numerals, optionally followed by an alphabetic letter.
+      Attribute:
+        Attribute_Label: EruptDay2
+        Attribute_Definition: Sequential calendar day of the eruption, with 3 May being day 1, formatted as a Double attribute field. When a calendar day has multiple data collections, they are sequentially marked in increments of 0.25, as in 2, 2.25, and so on.
+        Attribute_Definition_Source: Author
+        Attribute_Domain_Values:
+          Unrepresentable_Domain: Positive real numbers with up to two decimal places.
+      Attribute:
+        Attribute_Label: DataSource
+        Attribute_Definition: Description of the data source.
+        Attribute_Definition_Source: Author
+        Attribute_Domain_Values:
+          Unrepresentable_Domain: Text describing the data source.
+      Attribute:
+        Attribute_Label: Shape_Leng
+        Attribute_Definition: Length of feature in meters.
+        Attribute_Definition_Source: Author
+        Attribute_Domain_Values:
+          Unrepresentable_Domain: Positive real numbers that are automatically generated.
+      Attribute:
+        Attribute_Label: Shape_Area
+        Attribute_Definition: Area of feature in meters squared.
+        Attribute_Definition_Source: Author
+        Attribute_Domain_Values:
+          Unrepresentable_Domain: Positive real numbers that are automatically generated.
+  Distribution_Information:
+    Distributor:
+      Contact_Information:
+        Contact_Organization_Primary:
+          Contact_Organization: U.S. Geological Survey
+          Contact_Person: ScienceBase
+        Contact_Address:
+          Address_Type: mailing address
+          Address: Denver Federal Center
+          Address: Building 810
+          Address: Mail Stop 302
+          City: Denver
+          State_or_Province: Colorado
+          Postal_Code: 80225
+          Country: United States of America
+        Contact_Voice_Telephone: 1-888-ASK-USGS
+        Contact_Electronic_Mail_Address: sciencebase@usgs.gov
+    Distribution_Liability: This dataset has been approved for release and publication by the Director of the U.S. Geological Survey (USGS). Although the dataset has been subjected to rigorous review and is substantially complete, the USGS reserves the right to revise the data pursuant to further analysis and review. Furthermore, it is released on condition that neither the USGS nor the U.S. Government may be held liable for any damages resulting from its authorized or unauthorized use. All trademarks and trade names are the property of their respective owners. Any use of trade, product, or firm names is for descriptive purposes only and does not imply endorsement by the U.S. Government.
+    Standard_Order_Process:
+      Digital_Form:
+        Digital_Transfer_Information:
+          Format_Name: ARCE
+          Format_Version_Number: ArcGIS 10.6.1
+          Format_Information_Content: Esri file geodatabase and Esri shapefiles.
+          File_Decompression_Technique: Winzip
+        Digital_Transfer_Option:
+          Online_Option:
+            Computer_Contact_Information:
+              Network_Address:
+                Network_Resource_Name: https://doi.org/10.5066/P9S7UQKQ
+      Fees: No fees for digital files.
+    Available_Time_Period:
+      Time_Period_Information:
+        Single_Date/Time:
+          Calendar_Date: 2020
+  Metadata_Reference_Information:
+    Metadata_Date: 20191211
+    Metadata_Contact:
+      Contact_Information:
+        Contact_Person_Primary:
+          Contact_Person: Michael Zoeller
+          Contact_Organization: U.S. Geological Survey
+        Contact_Position: Geologist
+        Contact_Address:
+          Address_Type: mailing and physical address
+          Address: Hawaiian Volcano Observatory
+          Address: 1266 Kamehameha Avenue
+          Address: Suite A8
+          City: Hilo
+          State_or_Province: Hawaii
+          Postal_Code: 96720
+          Country: United States of America
+        Contact_Voice_Telephone: 808-967-8848
+        Contact_Electronic_Mail_Address: mzoeller@usgs.gov
+        Contact_Instructions: Preferred contact by e-mail. This mailing and physical address is temporary.
+    Metadata_Standard_Name: FGDC Content Standard for Digital Geospatial Metadata
+    Metadata_Standard_Version: FGDC-STD-001-1998
+    Metadata_Time_Convention: local time
+    Metadata_Access_Constraints: None
+    Metadata_Use_Constraints: None
+    Metadata_Security_Information:
+      Metadata_Security_Classification_System: None
+      Metadata_Security_Classification: Unclassified
+      Metadata_Security_Handling_Description: None
+    Metadata_Extensions:
+      Online_Linkage: http://www.esri.com/
+      Profile_Name: Esri Metadata Profile
