@@ -1,0 +1,133 @@
+#Welcome @lab.User.FirstName!
+
+#  More than just a map | geospatial analytics in Tableau
+
+## Session 1: Schools
+
+### 1. Create the School Datasource
+1. [ ] Connect > to a File > Text File 
+2. [ ] Select the Schools.csv file (in the "Part1 - Schools and Train Station" folder on the VM desktop)
+
+###2. Create a symbol map with a dot for each postcode
+1. [ ] Double Click on "Country"
+2. [ ] Double Click on "Postcode"
+3. [ ] Bring #Students to Size
+4. [ ] Change Background: Map > Background Maps > Street
+5. [ ] Rename the sheet "# Students by postcode"
+
+###3. Create a filled map that shows the number of students by County
+1. [ ] Create a new sheet
+2. [ ] Double Click on Country. Double Click on County
+3. [ ] Bring "#Students" to Colour
+4. [ ] Click on "4 Unknows" on the bottom right corner
+5. [ ] Click on "Edit Locations"
+6. [ ] Select "State" next to the "State/Province" field
+7. [ ] Click OK
+8. [ ] Click on "1 unknown", Click on "Edit Location".  Fix the Unknown County: select "Glen Innes Severn"
+9. [ ] Rename the sheet "# Students by County"
+
+###4. Create a map with both the number of students by Postcode and by County
+1. [ ] Duplicate the "# Students by County" sheet
+2. [ ] Bring "Postcode" to the canvas
+3. [ ] Bring "Country" to Details
+4. [ ] Bring "# Students" to Size
+5. [ ] Rename the sheet "#Students by County and Postcode"
+
+###5. Create a map with the schools
+1. [ ] Duplicate the "Number of Students by County"
+2. [ ] Create a "Schools" calculated field with the following calculation: +++MAKEPOINT([Latitude], [Longitude])+++
+3. [ ] Bring the "Schools" field to the canvas
+4. [ ] Bring "School code" to "Details"
+5. [ ] Bring "#Students" to Size
+6. [ ] Change Mark Type to "Circle"
+
+###6. Create a map with a filter on a radius to a particular school
+1. [ ] Create a Float "Selected Lat" parameter. Show the parameter
+2. [ ] Create a Float "Selected Long" parameter. Show the parameter
+3. [ ] Create an integer "Radius" parameter. Select 10 as a Current value. Select Range of Value with Minimum=1 and Maximum=50. Show the Parameter
+4. [ ] Create a parameter Action (Worksheet > Actions > Add Action > Change Parameters) as follows: "Selected Long" as "Target Parameter" and "Longitude (generated)" as "Source" field
+5. [ ] Create another parameter action as follows: "Selected Lat" as "Target Parameter" and "Latitude (generated)" as "Source" field
+6. [ ] Click on a school and verify that the "Selected Long" and "Selected Lat" parameters are updated
+7. [ ] Create a calculated field called "Selected School" with the following calculation: +++MAKEPOINT([Selected Lat], [Selected Long])+++
+8. [ ] Create a calculated field called "Distance from selected school" with the following calculation: +++DISTANCE([Selected School], [Schools], "km")+++
+9. [ ] Create a calculated field called "Within Radius" with the following calculation: +++[Distance to Selected School]<=[Radius]+++
+10. [ ] Bring the "Within Radius" field to "Filters" and only  select "True"
+11. [ ] Create a field called "Selected Area" with the following calculation:  +++BUFFER([Selected School], [Radius], "km")+++
+12. [ ] Bring "Selected School" to the canvas. Select the option "Disable Selection" and reduce "Opacity"
+
+###7. Add "Station Entrances" to the map
+1. [ ] Create a new datasource: Data > New Data Source. Select the Text File option and select the "StationEntrances.csv" file (in the "Part1 - Schools and Train Station" folder on the VM desktop)
+2. [ ] Make sure the new datasource is the one selected and create a calculated field called "Station" with the following calculation: +++"MAKEPOINT([Lat], [Long])"+++
+3. [ ] Bring "Station" to the canvas
+4. [ ] Bring "train Station" to "Detail"
+5. [ ] Change the Mark Type to "Shape" and select a square
+6. [ ] Deselect the "Add to Zoom Extend" option
+
+
+## Session 2:  Hawaii
+###1. Create the Lava Flow Datasource
+1. [ ] Connect > Spatial file > data/Lava Flows data
+2. [ ] Select the KIL_2018_LERZ_FlowChrologyPolys.shp file (in the "Part2 - Lava flow in Hawaii" folder on the VM desktop) - then go to "Sheet 1" tab
+3. [ ] Rename "Geometry" to "Lava Flow"
+4. [ ] Change "FlowTime1" from "String" to "Date and Time"
+5. [ ] Create a calculated Field called "Lava Area" Area(Lava Flow, 'km')
+
+###2. Plot the Lava
+1. [ ] Drag or double-click "Lava Flow" to map
+2. [ ] Bring "FlowTime1" to "Detail" and select "Exact Date" for temporal selection
+3. [ ] Bring "Lava Area" to "Detail" 
+4. [ ] On the map, Hover over "Lava Flow" and see what happens
+5. [ ] Experiment with putting things on Color...  "Lava Area", "FlowTime1" (look at the various time levels.)
+
+###3. Watch the Flow
+1. [ ] Drag "FlowTime1" to "Pages" and select "Exact Date" for temporal selection
+2. [ ] On the menu bar (on top), Format››Animations and turn them to "OFF" for the workbook 
+3. [ ] Click on "Show History" and select "ALL" for "Marks to show history for"
+4. [ ] Uncheck "Fade" and click out of the panel
+5. [ ] Grab the bar and move it back and forth (you can change the colors)
+6. [ ] Rename "Sheet 1" to something like "Lava Map"
+
+###4. New sheet
+1. [ ] New sheet
+2. [ ] plot the "Lava Flow" again
+3. [ ] On the menu bar (on top), Map››Background Maps››Satellite 
+4. [ ] Zoom into the neighborhood on the lower left (where the eruption started)
+5. [ ] You can make the "Lava Flow" transparent by going to "Color" on the "Marks card" and changing the Opacity levels 
+
+###5. Adding Buildings
+1. [ ] Go to the Data Source Tab (lower left) and click "ADD" right above the "KIL_2018_LERZ_FlowChrologyPolys" datasource
+2. [ ] Connect > to a File > Text file / buildings
+3. [ ] Select the BigIslandHawaii.csv (in the "2. Buildings" subfolder )
+4. [ ] Open the KIL_2018_LERZ_Flow box that contains table
+5. [ ] Drag BigIslandHawaii.csv out and select "Lava Flow" for the connection on the left
+6. [ ] Under BigIslandHawaii.csv select "Create Join Calculation" and type "MAKEPOINT([Lat],[Lon])". (hint, copy this to your clipboard)
+7. [ ] Select "Intersects" in the middle and make the join a "Left" Join
+8. [ ] close the dialog box and got to Sheet 2
+
+###6. Plot Structures
+1. [ ] Create a calculated field called "Structures" and type "Makepoint([Lat],[Lon])"
+2. [ ] Drag "Structures" and "Adds a Marks Layer" 
+3. [ ] Under BigIslandHawaii.csv you'll see "ID",  Put that on "Detail" on the marks card
+4. [ ] On the "Structures" Marks card, Switch from "Automatic" to "Circle"
+5. [ ] Change the Color to Red
+
+###7. Bring all Structures 
+1. [ ] go back to the data join and switch from "Left" to "Full" join
+2. [ ] Now go back to the map 
+3. [ ] Create new Calculated field called "In Lava?": Intersects([Lava Flow], [Structures])
+4. [ ] Put "In Lava?" on color and see what happens.
+
+
+###8. Find the Roads damaged
+1. [ ] Repeat the steps for joining sturctures to the Lava but this time for "Roads" ("3. Roads" subfolder)
+2. [ ] Right-click on the "KIL_2018_LERZ_FLow" datasource and "Edit connection" ›› Add "Spatial file"
+3. [ ] Find the Roads data again and do a "Left join" connecting "Lava Flow" Intersects "Geometry(Roa...)"
+4. [ ] Rename "Geometry(Roads_-_Hawaii_County.shp)" to "Damaged Roads" and drag it out to the map as a new Layer
+5. [ ] Add "Name" to "Detail" and change color to Red.  
+
+###9. Answer how much ash fell on my house?
+1. [ ] Add a new "Spatial file" data source to the workbook. navigate to the "4. TephraPolys" subfolder and select the .shp
+2. [ ] Create a new worksheet below and name it "Ash cloud"
+3. [ ] Rename "Geometry" to "Tephra" and double click to create a map 
+4. [ ] Add "ThickMax1" to color.
+5. [ ] for context, drag other layers from the Lava data source to the map (lava flow, structures) 
